@@ -10,7 +10,7 @@ int main()
     scanf("%d",&number_of_participants);
     int age[number_of_participants];
 
-    for(int i=0;i<number_of_participants;i++){//the loop to certify the condition for the number of times
+    for(int i=0;i<number_of_participants;i++){ //the loop to certify the condition for the number of times
         age[i]=intial_age+i*common_diffrence;
       printf("%d is the age of participant %d\n",age[i],i+1);
      sum=sum+age[i];
