@@ -4,7 +4,7 @@ int main()
 { int intial_age,common_diffrence,number_of_participants,sum=0,average;
     printf("enter first person's age\n"); //this is the  starting value
     scanf("%d",&intial_age);
-     printf("enter d\n");//d is the common diffrence
+     printf("enter d\n"); //d is the common diffrence
     scanf("%d",&common_diffrence);
      printf("enter number of people\n");//n is the number of times,(participants)
     scanf("%d",&number_of_participants);
