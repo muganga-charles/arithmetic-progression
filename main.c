@@ -2,7 +2,7 @@
 #include <stdlib.h>
 int main()
 { int intial_age,common_diffrence,number_of_participants,sum=0,average;
-    printf("enter first person's age\n");//this is the  starting value
+    printf("enter first person's age\n"); //this is the  starting value
     scanf("%d",&intial_age);
      printf("enter d\n");//d is the common diffrence
     scanf("%d",&common_diffrence);
